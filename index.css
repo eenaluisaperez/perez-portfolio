@@ -40,14 +40,15 @@ img {
 	font-size: 4rem;
 	text-align: left;
 	padding-top: 2rem;	
+
 }
 
 
 #caption {
 	font-family: 'Montserrat', sans-serif; ;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: left;
-	padd
+
 }
 
 /*Profile Container*/
@@ -59,7 +60,7 @@ img {
 	padding-bottom: 25px;
 	color: white;
 	letter-spacing: 2px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 }
 #prof-pic {
@@ -71,7 +72,7 @@ img {
 }
 
 .note {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	color: #ffb703;
 }
@@ -83,7 +84,7 @@ img {
 	color: white;
 	margin-top: 3rem;
 	margin-bottom: 2rem;
-	height: 100vh;
+
 }
 #projects-bg {
 	color: #023047 ;
@@ -146,4 +147,9 @@ footer span {
 
 #links {
 	text-decoration: none;
+}
+#con-data {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+
 }
