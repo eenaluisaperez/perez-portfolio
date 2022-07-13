@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #8ecae6;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #001d3d;
+}
+
+.navbar-brand {
+	padding-left: 30px;
+}
+
+.nav-item{
+	padding-right: 10px;
+}
+
+
+#main-container {
+
+	padding: 5%;
+	text-align: center;
+}
+
+img {
+/*	border-radius: 125px;*/
+	text-align: center;
+}
+#profile {
+		margin: 10px;
+}
+#myname {
+	font-family: 'Montserrat', sans-serif; ;
+	font-size: 4rem;
+	text-align: left;
+	padding-top: 2rem;	
+}
+
+
+#caption {
+	font-family: 'Montserrat', sans-serif; ;
+	font-size: 3rem;
+	text-align: left;
+	padd
+}
+
+/*Profile Container*/
+
+#prof-con {
+	padding-top: 2rem;
+	background-color: #023047;
+	margin: 0;
+	padding-bottom: 25px;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+#prof-pic {
+	text-align: center;
+}
+
+#pic{
+	border-radius: 250px;
+}
+
+.note {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: #ffb703;
+}
+
+
+/*Project Container*/
+
+#project {
+	color: white;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	height: 100vh;
+}
+#projects-bg {
+	color: #023047 ;
+	border: 1px dashed #023047;
+	background-color: #ffb703;
+	height: 100%;
+	padding-top: 3rem;
+	padding-bottom: 0;
+
+}
+
+ #projects-bg .col {
+		border: 1px dashed #023047;
+}
+
+
+/*#project {
+	margin: 1px;
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+	padding: 30px;
+}*/
+
+.projects > h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding-bottom: 1rem;
+	color: #023047;
+
+}
+
+#map {
+	text-align: center;
+}
+#contact {
+	padding-top: 2rem;
+	background-color: #023047;
+	margin-top: 50px;
+	padding-bottom: 25px;
+	color: white;
+	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+
+footer	{
+	padding: 0.7rem;
+	text-align: center;
+	background-color: #023047 ;
+	color: white;
+}
+
+footer span {
+	margin-left:  0.5rem;
+	margin-right: 0.5rem;
+	letter-spacing: 2px;
+	/*margin:  top&bottom, left&right*/
+}
+
+#links {
+	text-decoration: none;
+}
