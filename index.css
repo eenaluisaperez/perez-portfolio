@@ -19,12 +19,11 @@ body {
 
 .nav-item{
 	padding-right: 10px;
+
 }
 
 
 #main-container {
-
-	padding: 5%;
 	text-align: center;
 }
 
@@ -32,14 +31,24 @@ img {
 /*	border-radius: 125px;*/
 	text-align: center;
 }
+
+.main-con #myname, .main-con #caption {
+	padding-left: 2rem;
+}
+
+
 #profile {
-		margin: 10px;
+	margin: 0;
+		/*margin: 10px;*/
+		/*background-color: black;*/
 }
 #myname {
 	font-family: 'Montserrat', sans-serif; ;
 	font-size: 4rem;
-	text-align: left;
-	padding-top: 2rem;	
+	text-align: center;
+	padding-top: 5rem;	
+  vertical-align: text-bottom;
+
 
 }
 
@@ -47,17 +56,17 @@ img {
 #caption {
 	font-family: 'Montserrat', sans-serif; ;
 	font-size: 2rem;
-	text-align: left;
+	text-align: center;
 
 }
 
 /*Profile Container*/
 
 #prof-con {
+	margin-top: 2rem;
 	padding-top: 2rem;
 	background-color: #023047;
-	margin: 0;
-	padding-bottom: 25px;
+
 	color: white;
 	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
@@ -65,18 +74,39 @@ img {
 }
 #prof-pic {
 	text-align: center;
+	padding-left: auto;
+	padding-right: auto;
 }
 
 #pic{
 	border-radius: 250px;
 }
 
-.note {
+.work-xp, .work-xp-l {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	color: #ffb703;
+	font-size: 14px;
 }
 
+.work-xp-l {
+	padding-bottom: 2px;
+	border-bottom: 1px solid white;
+}
+
+
+.note {
+	padding-top: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #ffb703;
+}
+ .prod-data {
+ 		padding-bottom: 50px;
+ }
+
+ #prod-data-1 {
+ 		padding-bottom: 50px;
+ 		 padding-right: 10%;
+ }
 
 /*Project Container*/
 
@@ -84,14 +114,18 @@ img {
 	color: white;
 	margin-top: 3rem;
 	margin-bottom: 2rem;
-
 }
+
+#proj-header {
+	background-color: #023047 ;
+}
+
 #projects-bg {
 	color: #023047 ;
 	border: 1px dashed #023047;
 	background-color: #ffb703;
 	height: 100%;
-	padding-top: 3rem;
+	padding-top: 1em;
 	padding-bottom: 0;
 
 }
@@ -115,6 +149,7 @@ img {
 	padding-bottom: 1rem;
 	color: #023047;
 
+
 }
 
 #map {
@@ -132,16 +167,17 @@ img {
 }
 
 footer	{
+	margin-top: 2em;
 	padding: 0.7rem;
 	text-align: center;
-	background-color: #023047 ;
+	background-color:  #001d3d ;
 	color: white;
 }
 
 footer span {
 	margin-left:  0.5rem;
 	margin-right: 0.5rem;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	/*margin:  top&bottom, left&right*/
 }
 
@@ -152,4 +188,55 @@ footer span {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 
+}
+
+.proj-pic {
+	width: 25px;
+}
+
+@media (max-width: 576px){
+	.main-con {
+		margin: auto;
+	}
+	#caption {
+		display: none;
+		font-size: 12px;
+	}
+	#myname {
+		font-size:  7px;
+		padding-top: 1em;
+		text-align: center;
+	}
+	#mypic {
+		border: .5px solid white;
+		border-radius: 50%;
+	}
+
+}
+
+/*medium Devices*/
+@media (max-width: 991px){
+	.main-con {
+		margin: auto;
+	}
+	#caption {
+		font-size: 2em;
+	}
+	#myname {
+		font-size: 2em;
+		padding-top: 0;
+		text-align: center;
+	}
+	#mypic {
+		border: .5px solid white;
+		border-radius: 50%;
+	}
+
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+	body {
+		background-color: lightblue;
+	}
 }

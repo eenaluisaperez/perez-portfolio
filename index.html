@@ -44,12 +44,12 @@
 	<div class="container-fluid" id="main-container">
 		<!-- start of main -->
 		<div class="main" id="profile">
-				<div class="row">
-					<div class="main-con text-start col-md-6  col-lg-6 col-sm-6 col order-2 order-lg-2 order-md-2 order-sm-1 ms-sm-auto me-sm-auto">
-						<img class="img-fluid p-2" src="./images/me_yellow.jpg">
+				<div class="row d-flex mt-5">
+					<div class="main-con text-start col-md-6  col-lg-6 col-sm-6 col order-2 order-lg-2 order-md-2 order-sm-1 ms-sm-auto me-sm-auto text-center">
+						<img class="img-fluid p-3" src="./images/me_yellow2.png" id="mypic">
 					</div>
-					<div class="main-con text-start col-md-6  col-lg-6 col-sm-auto col order-1 order-lg-1 order-md-1 order-sm-2" >
-						<p class="" id="myname">Hi! I am Eena Luisa Perez!</p>
+					<div class="main-con text-start col-md-6  col-lg-6 col-sm-auto col order-1 order-lg-1 order-md-1 order-sm-2  text-center ps-5" id="main-con-1">
+						<p class="" id="myname">Eena Luisa Perez</p>
 						<p class="" id="caption">Full Stack Developer</p>
 					</div>
                 </div>
@@ -58,14 +58,24 @@
 
 		<!-- Profile Start -->
 		<div class="container-fluid" id="prof-con">
-			<h2>About Me</h2>
-			<div class="row d-flex text-start" id="prof-container" >
-				<div class="prod-data col-lg-4" id="prof-pic"><img src="./images/me_wall.jpg" id="pic" class="img-fluid">
+			<div class="d-block">
+				<div class="row mt-5">
+					<h2>About Me</h2>
 				</div>
-				<div class="prod-data col-lg-6">
-					<p>Hi! I am Eena Luisa Perez! Just call me , Eena! Currently living in Batangas.  </p>
+			</div>
+
+			<div class="row d-flex d-inline-block text-start" id="prof-container" >
+				<div class="prod-data col-lg-5" id="prof-pic"><img src="./images/me_wall.jpg" id="pic" class="img-fluid">
+				</div>
+				<div class="prod-data col-lg-7 ps-5" id="prod-data-1">
+					<p>Eena is a web developer located in Batangas. She graduated Bachelor of Science in Aviation Information Technology in Philippine State College of Aeronautics.   </p>
+					<p>Skills :</p>
+					<p class="work-xp">Web Development</p>
+					<p class="work-xp">Computer Troubleshoot</p>
+					<p class="work-xp">Basic Networking</p>
+					<p class="work-xp-l">Photo Editing | Logo Making</p>
 					<p class="note">The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way.</p>
-					<p class="note"><em>Robert Kiyosaki</em></p>
+					<p class="note"><em>-Robert Kiyosaki</em></p>
 				</div>
 			</div>
 		</div>
@@ -73,9 +83,13 @@
 
 		<!-- Start Project -->
 		
-		<div class="container-fluid projects" id="project">
-					<h3>My Projects</h3>
-			<div class="container-fluid d-block mb-5  d-flex">
+		<div class="container-fluid projects " id="project">
+				<div class="proj-head row d-block d-flex mt-5 ms-sm-auto me-sm-auto">
+					<div class="col-12 mt-5 pt-2" id="proj-header">
+						<h3 class>My Projects</h3>
+					</div>
+				</div>
+			<div class="container-fluid d-block mb-5 mt5 d-flex">
 				<div class="row" id="projects-bg">
 					<div class="col-md-6 col-lg-6 col-md-auto">
 						<a href="https://eperez1024.gitlab.io/fcb-portfolio">
@@ -103,15 +117,16 @@
 		<!-- Contact Start -->
 		<div class="container-fluid d-block" id="contact">
 			<h2>Contact me</h2>
-			<div class="row d-flex d-block text-start">
-				<div class="col-sm-12 col-md-12 col-lg-6 p-2 ms-sm-auto me-sm-auto" id="map">
+			<div class="row mt-5 d-flex d-block text-start">
+				<div class="container-fluid col-sm-12 col-md-12 col-lg-6 p-2 ms-sm-auto me-sm-auto" id="map">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30983.221597070387!2d121.13888347910154!3d13.904763700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd151c10e0dc63%3A0x98cfab89d6f305f9!2sAnilao%20lipa%20city%20Batangas!5e0!3m2!1sen!2sph!4v1657687624005!5m2!1sen!2sph" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-6 ms-sm-auto me-sm-auto">
 						<div id="con-data">
 							<p>Eena Luisa Perez</p>
 							<p>Bella Vita Brgy. Anilao Lipa City Batangas</p>
-							<p>+639 77 390 8859</p>
+							<p>+63 977 390 8859</p>
+							<p>eenaluisaperez@gmail.com</p>
 						</div>
 
 						<div class="col-sm-6 col-md-6 col-lg-6" id="links">
